@@ -1,5 +1,14 @@
 import { useEffect, useState } from "react";
 
+// const hitApi = async (data) => {
+//   const response = await fetch("/api/spots/", {
+//     method: "POST",
+//     body: JSON.stringify(data)
+//   });
+//   const result = await response.json();
+//   return result;
+// };
+
 function ContactUs(props) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
